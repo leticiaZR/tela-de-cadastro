@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-login {
+    margin: 30px;
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.left-login>h1 {
+    font-size: 3vw;
+    color: #f56900;
+}
+
+
+.card-login {
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 35px;
+    background: #212121;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px #00000056;
+}
+
+.card-login>h1 {
+    color: #f56900;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+.Continuar {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    flex-direction: column;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    color: #1b120c;
+    background: #f56900;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #9e653a;
+
+}
